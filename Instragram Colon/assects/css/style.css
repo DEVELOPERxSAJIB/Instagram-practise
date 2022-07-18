@@ -1,0 +1,120 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.header-left {
+    margin: 0;
+    padding: 0;
+} 
+
+.header-left a {
+    height: 50px;
+    width: 180px;
+    background-image: url(../images/spriteimage.png);
+    display: block;
+    transform: translate(100%, 0px);
+    background-position: 0px 270px;
+    transform: scale(.6) !important;
+}
+
+.header-center input {
+    position: absolute;
+    height: 32px;
+    width: 260px;
+    border-radius: 7px;
+    background-color: #EFEFEF;
+    outline: none;
+    border: none;
+    margin-top: 8px;
+    padding: 0;
+}
+
+.header-center input::placeholder {
+   padding-left: 36px; 
+}  
+
+.header-center i {
+    position: relative;
+    display: block;
+    top: 17px;
+    left: 12px;
+    color: #a3a3a3;
+}
+
+.header-right {
+    text-align: left;
+}
+
+.header-right ul {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    max-width: 250px;
+    
+}
+
+.header-right li {
+    display: inline;
+    justify-content: space-between;
+}
+
+.header-right li img {
+    border-radius: 50%;
+}
+
+.dropdown a::after {
+    display: none;
+}
+
+.card-body img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.post-auth-area {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #2626260e;
+}
+
+.post-auth-area .user-info {
+    display: flex;
+}
+
+.post-auth-area .user-info img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+}
+
+.post-auth-area .user-info .details {
+    padding-left: 10px;
+}
+
+.post-auth-area .user-info .details p {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: #262626;
+}
+
+.post-auth-area .user-info .details span {
+    font-size: 12px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.post-auth-area .dropdown i {
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 16px;
+    color: #262626;
+} 
