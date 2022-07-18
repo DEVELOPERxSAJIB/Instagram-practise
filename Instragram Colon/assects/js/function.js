@@ -6,7 +6,7 @@ const setAlert = (msg, type = 'danger') => {
 // read LS Data
 const readLSData = (key) => {
     if (localStorage.getItem(key)){
-        return data.JSON(localStorage.getItem(key));
+        return JSON.parse(localStorage.getItem(key));
     } else {
         return false;
     }
